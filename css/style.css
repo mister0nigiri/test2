@@ -794,3 +794,55 @@ li{
   font-size: 1rem;
   font-weight: normal;
 }
+
+
+/* FLOW */
+
+.flow{
+  margin: 0 auto;
+  max-width: 1920px;
+  padding-bottom: 125px;
+}
+
+.flow__inner{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.flow__top{
+  padding-top: 70px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.flow__title-text{
+  font-size: 1.75rem;
+}
+
+.flow__list{
+  margin-top: 9px;
+  display: flex;
+  gap: 13px;
+}
+
+.flow__number{
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+
+}
+
+.flow__number span{
+  color: #C2932F;
+  font-size: 1.75rem;
+}
+
+.flow__step{
+  padding-top: 11px;
+  padding-bottom: 11px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 1.1875rem;
+}
