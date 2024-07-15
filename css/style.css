@@ -1053,11 +1053,129 @@ details.is-opened .icon::after {
 }
 
 
+/* GREETING */
 
+.greeting{
+  margin: 0 auto;
+  max-width: 1920px;
+  padding-bottom: 96px;
+}
 
+.greeting__inner{
+  margin: 0 auto;
+  max-width: 1200px;
+}
 
+.greeting__title{
+  text-align: right;
+}
 
+.greeting__title-text{
+  margin: 0 auto;
+  max-width: 934px;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
 
+.greeting__content{
+  margin: 0 auto;
+  margin-top: 27px;
+  max-width: 934px;
+  background-color: #E3E7ED;
+  border-radius: 24px;
+  padding-top: 57px;
+  padding-bottom: 41px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
 
+.greeting__representative{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 40px;
+}
 
+.greeting__representative__text{
+  width: 40%;
+}
 
+.greeting__representative__name{
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.greeting__representative__name span{
+  font-size: 1.25rem;
+}
+
+.greeting__representative__history{
+  background-color: rgba(0, 0, 0, 0.06);
+  margin-top: 29px;
+  padding-top: 17px;
+  padding-left: 30px;
+  padding-right: 63px;
+  padding-bottom: 46px;
+}
+
+.greeting__representative__history__title{
+  font-weight: normal;
+}
+
+.greeting__representative__history__description{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.greeting__representative__history__description dt{
+  width: 30%;
+  
+}
+
+.greeting__representative__history__description dd{
+  width: 70%;
+  
+}
+
+.greeting__representative__img{
+  width: 52%;
+}
+
+.greeting__company{
+  margin: 0 auto;
+  margin-top: 39px;
+  max-width: 934px;
+  display: flex;
+}
+
+.greeting__company h3{
+  margin: 0 0 0 auto;
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-align: right;
+  transform: translateX(100px);
+}
+
+.greeting__company dl{
+  margin: 0 0 0 auto;
+  width: 52.7%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.greeting__company dl dt{
+  width: 25%;
+  border-bottom: 0.5px solid #B9B9B9;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.greeting__company dl dd{
+  width: 75%;
+  border-bottom: 0.5px solid #B9B9B9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
