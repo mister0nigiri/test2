@@ -846,3 +846,82 @@ li{
   text-align: center;
   font-size: 1.1875rem;
 }
+
+
+/* SALON */
+
+.salon{
+  margin: 0 auto;
+  max-width: 1920px;
+  padding-bottom: 140px;
+}
+
+.salon__inner{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.salon__top{
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 242px;
+}
+
+.salon__title-text{
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.swiper{
+  margin-top: 40px;
+  width: 100%;
+}
+
+.swiper-slide{
+  width: 410px;
+  height: 354px;
+}
+
+.salon__inner{
+  margin-top: 25px;
+}
+
+.salon__open{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  letter-spacing: .1em;
+}
+
+.salon__closed{
+  text-align: center;
+  transform: translateX(-160px);
+  letter-spacing: .1em;
+}
+
+.salon__map{
+  margin-top: 51px;
+}
+
+.salon__access{
+  margin-top: 19px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.salon__address{
+  font-style: normal;
+}
+
+.salon__railway{
+  display: flex;
+  gap: 13px;
+}
+
+.salon__railway img{
+  width: 16px;
+  height: 23px;
+}
