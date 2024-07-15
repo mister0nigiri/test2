@@ -1188,7 +1188,7 @@ details.is-opened .icon::after {
   max-width: 1920px;
   background-color: #000;
   padding-top: 22px;
-  padding-bottom: 22px;
+  padding-bottom: 200px;
 }
 
 .footer__up__logo{
@@ -1275,4 +1275,122 @@ details.is-opened .icon::after {
   color: #8B8B8B;
   text-align: center;
   font-size: 0.75rem;
+}
+
+/* UNDER-BAR */
+
+.under-bar{
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1920px;
+  width: 100%;
+  background-color: #C31F1F;
+  padding-top: 11px;
+  padding-bottom: 17px;
+  z-index: 100;
+}
+
+.under-bar__title{
+  text-align: center;
+  color: #fff;
+  font: 2.125rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.under-bar__link{
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 9px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.under-bar__line{
+  width: 31%;
+}
+
+.under-bar__line a{
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #08C656;
+  border: 5px solid #fff;
+  border-radius: 54px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 64px;
+  position: relative;
+}
+
+.under-bar__line .line-logo{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.under-bar__hot{
+  width: 31%;
+}
+
+.under-bar__hot a{
+  display: block;
+  background-color: #C2932F;
+  border: 5px solid #fff;
+  border-radius: 54px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  text-align: center;
+  line-height: 1;
+  position: relative;
+}
+
+.under-bar__hot1{
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.under-bar__hot2{
+  margin-top: 3px;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.arrow-white{
+  width: 31px;
+  height: 4px;
+  position: absolute;
+  top: 0px;
+  right: 27px;
+}
+
+.under-bar__tel{
+  width: 31%;
+}
+
+.fa-phone{
+  margin-right: 6px;
+}
+
+.under-bar__tel a{
+  display: block;
+  background-color: #727171;
+  border: 5px solid #fff;
+  border-radius: 54px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 30px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
