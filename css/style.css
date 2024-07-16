@@ -1315,7 +1315,6 @@ details.is-opened .icon::after {
 /* UNDER-BAR */
 
 .under-bar{
-  display: none;
   position: fixed;
   bottom: 0;
   left: 50%;
@@ -1429,6 +1428,10 @@ details.is-opened .icon::after {
   color: #fff;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.under-bar__tel-sp{
+  display: none;
 }
 
 
@@ -2394,4 +2397,110 @@ SP
   .copyright{
     margin-top: 110px;
   }
+
+
+  /* UNDER-BAR */
+
+  .under-bar{
+    padding-top: 7px;
+    padding-bottom: 11px;
+  }
+
+  .under-bar__title{
+    font-size: 0.875rem;
+  }
+
+  .under-bar__link{
+    margin-top: 6px;
+    gap: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .under-bar__line{
+    width: 35.6%;
+  }
+
+  .under-bar__line a{
+    font-size: 0.875rem;
+    border: 2px solid #fff;
+    border-radius: 23px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 7px;
+    display: flex;
+    align-items: center;
+    height: 42px;
+  }
+
+  .under-bar__line .line-logo{
+    width: 28px;
+    height: 27px;
+    margin-right: 10px;
+  }
+
+  .under-bar__hot{
+    width: 38%;
+  }
+
+  .under-bar__hot a{
+    border: 2px solid #fff;
+    border-radius: 23px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 42px;
+  }
+
+  .under-bar__hot1{
+    font-size: 0.8125rem;
+  }
+
+  .under-bar__hot2{
+    margin-top: 2px;
+    font-size: 0.375rem;
+  }
+
+  .arrow-white{
+    width: 14px;
+    top: 7px;
+    right: 8px;
+  }
+
+  .under-bar__tel-sp{
+    width: 23%;
+  }
+
+  .under-bar__tel{
+    display: none;
+  }
+
+  .under-bar__tel-sp{
+    display: block;
+  }
+
+  .under-bar__tel-sp a{
+    display: flex;
+    align-items: center;
+    background-color: #727171;
+    border: 2px solid #fff;
+    border-radius: 23px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: 42px;
+    position: relative;
+  }
+
+  .fa-phone{
+    margin-right: 5px;
+    font-size: 1rem;
+  }
+
 }
