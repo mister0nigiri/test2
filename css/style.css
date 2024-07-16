@@ -2216,4 +2216,98 @@ SP
     left: 20px;
     font-size: 1.5rem;
   }
+
+
+  /* GREETING */
+
+  .greeting{
+    padding-bottom: 43px;
+  }
+
+  .greeting__inner{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .greeting__title-text{
+    font-size: 1.375rem;
+  }
+
+  .greeting__content{
+    margin-top: 13px;
+    border-radius: 12px;
+    padding-top: 23px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .greeting__representative{
+    flex-direction: column-reverse;
+    gap: 12px;
+  }
+
+  .greeting__representative__text{
+    width: 100%;
+  }
+
+  .greeting__representative__name{
+    font-size: 0.875rem;
+    text-align: right;
+  }
+
+  .greeting__representative__history{
+    margin-top: 15px;
+    padding-top: 14px;
+    padding-left: 7px;
+    padding-right: 55px;
+    padding-bottom: 36px;
+    display: flex;
+    gap: 19px;
+  }
+
+  .greeting__representative__history__title{
+    white-space: nowrap;
+    font-size: 0.8125rem;
+  }
+
+  .greeting__representative__history__description dt{
+    font-size: 0.8125rem;
+  }
+
+  .greeting__representative__history__description dd{
+    font-size: 0.8125rem;
+  }
+
+  .greeting__representative__img{
+    width: 100%;
+  }
+
+  .greeting__company{
+    margin-top: 17px;
+    flex-direction: column;
+  }
+
+  .greeting__company h3{
+    margin-left: 0;
+    font-size: 0.875rem;
+    text-align: center;
+    transform: translateX(0px);
+  }
+
+  .greeting__company dl{   
+    width: 100%;
+  }
+
+  .greeting__company dl dt{
+    width: 30%;
+    font-size: 0.8125rem;
+  }
+
+  .greeting__company dl dd{
+    width: 70%;
+    font-size: 0.8125rem;
+  }
+
 }
