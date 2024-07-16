@@ -2148,4 +2148,72 @@ SP
   .salon__railway{
     font-size: 0.875rem;
   }
+
+
+  /* FAQ */
+
+  .faq{
+    padding-bottom: 49px;
+  }
+
+  .faq__top{
+    display: block;
+  }
+
+  .faq__title{
+    padding-left: 8px;
+  }
+
+  .faq__title-text{
+    font-size: 1.375rem;
+    text-align: center;
+  }
+
+  .accordion{
+    margin-top: 28px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .summary__inner{
+    border: 3px solid #F0F0F0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 61px;
+    padding-right: 61px;
+    font-size: 1rem;
+    line-height: 1.3125;
+  }
+
+  .q{
+    top: -5px;
+    left: -5px;
+    width: 57px;
+    height: 57px;
+    font-size: 1.625rem;
+  }
+
+  .icon::before,
+  .icon::after {
+    width: 14px;
+    right: 13px;
+  }
+
+  .accordion details {
+    margin-bottom: 32px;
+  }
+
+  .content__inner{
+    margin: 0 0 0 auto;
+    margin-top: 27px;
+    margin-right: 20px;
+    width: 79%;
+  }
+
+  .a{
+    top: 20px;
+    left: 20px;
+    font-size: 1.5rem;
+  }
 }
