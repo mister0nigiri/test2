@@ -1649,6 +1649,7 @@ SP
     padding-bottom: 10px;
     padding-right: 10px;
     font-size: 1.0625rem;
+    line-height: 1.3;
   }
 
 
@@ -1667,5 +1668,270 @@ SP
 
   .worry__solution br{
     display: block;
+  }
+
+
+  /* MENU */
+
+  .menu{
+    padding-bottom: 62px;
+  }
+
+  .menu__inner{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .menu__title{
+    padding-top: 50px;
+  }
+
+  .menu__title__text{
+    margin-top: 6px;
+    font-size: 1.375rem;
+  }
+
+  .menu__introduction{
+    top: 20px;
+    left: 5px;
+    width: 94px;
+    height: 94px;
+    padding-top: 10px;
+    border: 5px dashed #C2932F;
+    font-size: 1rem;
+    transform: rotate(-10deg);
+  }
+
+  .menu__introduction span{
+    font-size: 1.125rem;
+  }
+
+  .menu__content{
+    margin-top: 18px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+  }
+
+  .menu__content__message{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 27px;
+    font-size: 1.25rem;
+    line-height: 1.35;
+  }
+
+  .menu__content__title{
+    margin-top: 13px;
+    font-size: 0.9375rem;
+  }
+
+  .menu__content__price{
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .menu__content__price li{
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+
+  .menu__content__price-3{
+    font-size: 0.875rem;
+  }
+
+  .menu__content__price li .menu__content__price-red{
+    font-size: 1rem;
+  }
+
+  .menu__content__time{
+    margin-top: 5px;
+    font-size: 0.875rem;
+  }
+
+  .hydro{
+    margin-top: 22px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .hydro__img{
+    width: 100%;
+  }
+
+  .hydro__text{
+    width: 100%;
+    font-size: 0.875rem;
+  }
+
+  .menu__content__detail{
+    margin-top: 46px;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .menu__content__treatment{
+    width: 100%;
+  }
+
+  .menu__content__treatment__title{
+    font-size: 0.9375rem;
+    padding-bottom: 6px;
+  }
+
+  .menu__content__before-after{
+    width: 100%;
+  }
+
+  .menu__content__before-after__title{
+    font-size: 0.9375rem;
+    padding-bottom: 6px;
+  }
+
+  .triangle-before-after{
+    top: 72px;
+    width: 25px;
+    height: 55px;
+  }
+
+  .menu__content__before-after__text{
+    margin-top: 11px;
+    font-size: 0.9375rem;
+  }
+
+  .pigmentation{
+    margin-top: 17px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .pigmentation__img{
+    width: 100%;
+  }
+
+  .pigmentation__text{
+    width: 100%;
+    font-size: 0.875rem;
+  }
+
+  .photo{
+    margin-top: 19px;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .photo__img{
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .photo__text{
+    padding-top: 0px;
+    width: 100%;
+  }
+
+  .removal__treatment{
+    width: 100%;
+    margin-top: 68px;
+  }
+
+  .removal__treatment__title{
+    font-size: 0.9375rem;
+    padding-bottom: 6px;
+  }
+
+  .removal__before-after{
+    margin-top: 42px;
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .removal__before-after1{
+    width: 100%;
+  }
+
+  .removal__before-after2{
+    width: 100%;
+  }
+
+  .removal__before-after__title{
+    font-size: 0.9375rem;
+    padding-bottom: 6px;
+  }
+
+  .removal__before-after__text{
+    margin-top: 12px;
+    font-size: 0.9375rem;
+  }
+
+  .premium__detail{
+    margin-top: 21px;
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  .premium__treatment{
+    width: 100%;
+  }
+
+  .premium__treatment__title{
+    font-size: 0.9375rem;
+    padding-bottom: 6px;
+  }
+
+  .premium__detail__text{
+    width: 100%;
+    padding-top: 0px;
+    font-size: 0.9375rem;
+  }
+
+  .eyebrow__price{
+    margin-top: 8px;
+    font-size: 1rem;
+  }
+
+  .eyebrow__price span{
+    font-size: 1.25rem;
+  }
+
+  .eyebrow__detail{
+    margin-top: 11px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .eyebrow__treatment{
+    width: 100%;
+  }
+
+  .eyebrow__treatment__title{
+    padding-bottom: 6px;
+    font-size: 0.9375rem;
+  }
+
+  .eyebrow__treatment__img{
+    height: 100%;
+  }
+
+  .eyebrow__detail__content{
+    width: 100%;
+  }
+
+  .eyebrow__detail__text{
+    padding-top: 0px;
+  }
+
+  .eyebrow__detail__img{
+    margin-top: 49px;
+    gap: 17px;
   }
 }
