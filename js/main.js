@@ -1,9 +1,13 @@
 // スワイパー
-const swiper = new Swiper('.swiper', {
-
-
+const swiper = new Swiper(".swiper", {
+  loop: true, // ループ有効
+  slidesPerView: 5, // 一度に表示する枚数
+  speed: 5000, // ループの時間
+  allowTouchMove: false, // スワイプ無効
+  autoplay: {
+    delay: 0, // 途切れなくループ
+  },
 });
-
 
 
 // アコーディオンメニュー

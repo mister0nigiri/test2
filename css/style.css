@@ -889,6 +889,19 @@ li{
   margin-top: 25px;
 }
 
+/* スライドの動き等速 */
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+/* 画像のサイズ調整 */
+.swiper-slide img {
+  height: auto;
+  width: 100%;
+}
+
+
+
+
 .salon__open{
   display: flex;
   justify-content: center;
