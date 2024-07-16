@@ -1,12 +1,20 @@
 // スワイパー
 const swiper = new Swiper(".swiper", {
   loop: true, // ループ有効
-  slidesPerView: 5, // 一度に表示する枚数
   speed: 5000, // ループの時間
   allowTouchMove: false, // スワイプ無効
   autoplay: {
     delay: 0, // 途切れなくループ
   },
+
+  // スライドの表示枚数：700px未満の場合
+  slidesPerView: 2,
+  breakpoints: {
+    // スライドの表示枚数：700px以上の場合
+    700: {
+      slidesPerView: 5,
+    }
+  }
 });
 
 

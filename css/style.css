@@ -882,7 +882,7 @@ li{
   max-width: 1200px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  flex-direction: row-reverse;
   gap: 242px;
 }
 
@@ -2084,4 +2084,68 @@ SP
     background-color: #000;
   }
   
+  /* SALON */
+
+  .salon{
+    padding-bottom: 58px;
+  }
+
+  .salon__top{
+    display: block;
+  }
+
+  .salon__title{
+    text-align: right;
+  }
+
+  .salon__title-text{
+    font-size: 1.375rem;
+    text-align: center;
+  }
+
+  .swiper{
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .swiper-slide{
+    width: 245px;
+    height: 211px;
+  }
+
+  .salon__inner{
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .salon__open{
+    justify-content: flex-start;
+    gap: 5px;
+    font-size: 0.8125rem;
+  }
+
+  .salon__closed{
+    transform: translateX(0px);
+    text-align: left;
+    font-size: 0.8125rem;
+  }
+
+  .salon__map{
+    margin-top: 17px;
+  }
+
+  .salon__access{
+    margin-top: 15px;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .salon__address{
+    font-size: 0.875rem;
+  }
+
+  .salon__railway{
+    font-size: 0.875rem;
+  }
 }
