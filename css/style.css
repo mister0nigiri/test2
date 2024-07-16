@@ -9,6 +9,7 @@ body{
   color: #000;
   font-family: 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;
   font-family: 'メイリオ', 'Meiryo', sans-serif;
+  overflow-x: hidden;
 }
 
 a{
@@ -1229,6 +1230,10 @@ details.is-opened .icon::after {
   font-style: normal;
 }
 
+.footer__up__address br{
+  display: none;
+}
+
 .footer__up__open{
   margin-top: 16px;
   color: #fff;
@@ -1261,6 +1266,10 @@ details.is-opened .icon::after {
   color: #fff;
   text-align: center;
   font-style: normal;
+}
+
+.footer__down__address br{
+  display: none;
 }
 
 .footer__down__number{
@@ -2310,4 +2319,79 @@ SP
     font-size: 0.8125rem;
   }
 
+
+  /* FOOTER */
+
+  .footer{
+    padding-top: 0px;
+    padding-bottom: 150px;
+  }
+
+  .footer__up__logo{
+    width: 191px;
+    height: 191px;
+  }
+
+  .footer__up__address{
+    text-align: center;
+    font-size: 0.8125rem;
+  }
+
+  .footer__up__address br{
+    display: block;
+  }
+
+  .footer__up__open{
+    margin-top: 23px;
+    gap: 0px;
+    font-size: 0.8125rem;
+  }
+
+  .footer__up__closed{
+    font-size: 0.8125rem;
+    transform: translateX(-100px);
+  }
+
+  .footer__down__logo{
+    margin-top: 30px;
+    width: 163px;
+    height: 164px;
+  }
+
+  .footer__down__logo2{
+    width: 267px;
+    height: 16px;
+  }
+
+  .footer__down__address{
+    margin-top: 8px;
+    font-size: 0.8125rem;
+  }
+
+  .footer__down__address br{
+    display: block;
+  }
+
+  .footer__down__number{
+    font-size: 0.8125rem;
+  }
+
+  .footer__down__btn{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 18px;
+    width: 247px;
+    font-size: 0.875rem;
+  }
+
+  .footer__down__btn img{
+    top: 8px;
+    right: 10px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .copyright{
+    margin-top: 110px;
+  }
 }
