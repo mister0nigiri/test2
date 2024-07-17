@@ -243,13 +243,31 @@ li{
 .concept{
   margin: 0 auto;
   max-width: 1920px;
-  background-color: gray;
+  background-color: rgba(0, 0, 0, 0.35);
   padding-bottom: 115px;
+  background-image: url(../img/concept-bg.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.concept::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 10;
 }
 
 .concept__inner{
   margin: 0 auto;
   max-width: 1200px;
+  position: relative;
+  z-index: 11;
 }
 
 .concept__title{
@@ -433,6 +451,12 @@ li{
   padding-left: 26px;
   font-size: 2.25rem;
   line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+.menu__content__message .square{
+  margin-right: 10px;
 }
 
 .menu__content__title{
@@ -899,17 +923,21 @@ li{
   display: flex;
   justify-content: center;
   gap: 20px;
-  letter-spacing: .1em;
+  white-space: nowrap;
 }
 
 .salon__closed{
   text-align: center;
-  transform: translateX(-160px);
-  letter-spacing: .1em;
+  transform: translateX(-130px);
 }
 
 .salon__map{
   margin-top: 51px;
+}
+
+.salon__map iframe {
+  width: 100%;
+  vertical-align: bottom;
 }
 
 .salon__access{
@@ -1168,6 +1196,7 @@ details.is-opened .icon::after {
   margin: 0 0 0 auto;
   width: 52.7%;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -1591,6 +1620,7 @@ SP
 
   .concept{
     padding-bottom: 80px;
+    background-image: url(../img/concept-bg-sp.png);
   }
 
   .concept__title{
@@ -1730,6 +1760,11 @@ SP
     padding-right: 27px;
     font-size: 1.25rem;
     line-height: 1.35;
+  }
+
+  .menu__content__message .square{
+    margin-right: 14px;
+    font-size: 1rem;
   }
 
   .menu__content__title{
@@ -2116,17 +2151,18 @@ SP
 
   .salon__inner{
     margin-top: 15px;
-    padding-left: 20px;
     padding-right: 20px;
+    padding-left: 20px;
   }
 
   .salon__open{
     justify-content: flex-start;
-    gap: 5px;
+    gap: 10px;
     font-size: 0.8125rem;
   }
 
   .salon__closed{
+    margin-top: 8px;
     transform: translateX(0px);
     text-align: left;
     font-size: 0.8125rem;
@@ -2335,11 +2371,12 @@ SP
 
   .footer__up__open{
     margin-top: 23px;
-    gap: 0px;
+    gap: 10px;
     font-size: 0.8125rem;
   }
 
   .footer__up__closed{
+    margin-top: 8px;
     font-size: 0.8125rem;
     transform: translateX(-100px);
   }
