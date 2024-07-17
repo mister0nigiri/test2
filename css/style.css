@@ -7,8 +7,7 @@ html{
 
 body{
   color: #000;
-  font-family: 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;
-  font-family: 'メイリオ', 'Meiryo', sans-serif;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
   overflow-x: hidden;
 }
 
@@ -30,7 +29,8 @@ li{
 .section-title{
   color: #C2932F;
   font-size: 7.5rem;
-  font-weight: normal;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
   text-transform: capitalize;
   font-style: italic;
   letter-spacing: .1em;
@@ -67,75 +67,54 @@ li{
 }
 
 .mv__title{
-  margin-top: 60px;
   display: inline-block;
-  color: #C2932F;
-  letter-spacing: .1em;
-  border: 1px solid #C2932F;
-  padding-top: 14px;
-  padding-right: 36px;
+  width: 440px;
+  margin-top: 59px;
+  padding-top: 11px;
   padding-bottom: 11px;
   padding-left: 26px;
-  line-height: 1;
-  font-weight: bold;
-  font-size: 1.25rem;
+  padding-right: 36px;
+  border: 1px solid #C2932F;
+}
+
+.mv__title-sp{
+  display: none;
 }
 
 .mv__message{
   margin-top: 45px;
-  font-size: 6rem;
-  font-weight: bold;
-  letter-spacing: .05em;
-  line-height: 1;
+  width: 739px;
+  height: 109px;
 }
 
 .mv__message-small{
-  font-size: 2.5rem;
+  margin-top: 22px;
+  margin-left: 190px;
+  width: 291px;
+  height: 39px;
+}
+
+.mv__message-sp{
+  display: none;
+}
+
+.mv__message-small-sp{
+  display: none;
 }
 
 .mv__circle-list{
-  margin-top: 83px;
+  margin-top: 59px;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  gap: 36px;
 }
 
 .mv__circle-list .mv__circle{
-  width: 238px;
+  width: 757px;
   height: 238px;
-  border: 6px solid #C2932F;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: bold;
-  line-height: 1.2;
-}
-
-.mv__circle-list .mv__circle:nth-of-type(2){
-  padding-top: 30px;
-  display: block;
-}
-
-.mv__circle-list .mv__circle:nth-of-type(2) span{
-  display: inline-block;
-  font-size: 1.5rem;
-}
-
-.mv__circle-list .mv__circle:nth-of-type(3){
-  padding-top: 20px;
-  display: block;
-  font-size: 2.875rem;
-}
-
-.mv__circle-list .mv__circle:nth-of-type(3) span{
-  display: inline-block;
-  font-size: 1.75rem;
 }
 
 .mv__circle-list .mv__circle-img{
-  transform: translateY(-20px);
   width: 295px;
   height: 295px;
 }
@@ -185,10 +164,10 @@ li{
   margin-top: 12px;
   font-size: 4rem;
   font-weight: bold;
+  font-family: "Roboto", sans-serif;
   color: #CCAC4E;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: -5px; 
 }
 
 .campaign__title br{
@@ -362,7 +341,7 @@ li{
 .worry__number{
   font-size: 3.4375rem;
   font-weight: bold;
-  letter-spacing: -2px;
+  font-family: "Roboto", sans-serif;
   margin-right: 25px;
   line-height: 1;
 }
@@ -1465,57 +1444,67 @@ SP
   }
 
   .mv__title{
+    display: none;
     margin-top: 29px;
     padding-top: 6px;
     padding-right: 16px;
     padding-bottom: 5px;
     padding-left: 12px;
-    font-size: 1rem;
   }
 
+  .mv__title{
+    display: none;
+  }
+
+  .mv__title-sp{
+    display: block;
+    margin-top: 20px;
+  }
+
+  .mv__title-sp img{
+    width: 205px;
+    padding-top: 6px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    border: 1px solid #C2932F;
+  }
+
+
   .mv__message{
+    display: none;
+  }
+
+  .mv__message-sp{
+    display: block;
     margin-top: 21px;
-    font-size: 3rem;
-    white-space: nowrap;
+    width: 344px;
+    height: 51px;
   }
 
   .mv__message-small{
-    font-size: 1.25rem;
-    padding-left: 90px;
+    display: none;
+  }
+
+  .mv__message-small-sp{
+    display: block;
+    margin-top: 10px;
+    margin-left: 90px;
+    width: 135px;
+    height: 18px;
   }
 
   .mv__circle-list{
     margin-top: 45px;
-    justify-content: flex-start;
-    gap: 7px;
+    gap: 8px;
   }
 
   .mv__circle-list .mv__circle{
-    width: 79px;
+    width: 253px;
     height: 79px;
-    border: 1px solid #C2932F;
-    font-size: 0.9375rem;
-  }
-
-  .mv__circle-list .mv__circle:nth-of-type(2){
-    padding-top: 5px;
-  }
-
-  .mv__circle-list .mv__circle:nth-of-type(2) span{
-    font-size: 0.875rem;
-  }
-
-  .mv__circle-list .mv__circle:nth-of-type(3){
-    padding-top: 10px;
-    font-size: 1rem;
-  }
-
-  .mv__circle-list .mv__circle:nth-of-type(3) span{
-    font-size: 0.875rem;
   }
 
   .mv__circle-list .mv__circle-img{
-    transform: translateY(-10px);
     width: 99px;
     height: 99px;
   }
