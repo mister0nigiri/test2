@@ -228,6 +228,7 @@ li{
 
 .campaign__price span{
   color: #C31F1F;
+  font-size: 1.75rem;
 }
 
 .campaign__table__asterisk{
@@ -948,6 +949,8 @@ li{
   margin-top: 19px;
   display: flex;
   justify-content: space-between;
+  padding-right: 65px;
+  padding-left: 10px;
 }
 
 .salon__address{
@@ -1446,6 +1449,316 @@ details.is-opened .icon::after {
   display: none;
 }
 
+/*-------------------------------------------
+TB
+-------------------------------------------*/
+@media screen and (max-width: 1150px) {
+
+  .section-title{
+    font-size: 4.5rem;
+  }
+
+  /* MV */
+
+  .mv__message{
+    width: 500px;
+    height: 70px;
+  }
+
+  .mv__message-small{
+    margin-left: 120px;
+    width: 220px;
+    height: 30px;
+  }
+
+  .mv__circle-list{
+    margin-top: 40px;
+    gap: 20px;
+  }
+
+  .mv__circle-list .mv__circle{
+    width: 450px;
+    height: 120px;
+  }
+
+  .mv__circle-list .mv__circle-img{
+    width: 190px;
+    height: 190px;
+  }
+
+  /* CAMPAIGN */
+
+  .campaign__open{
+    top: -25px;
+    left: 30px;
+    width: 180px;
+    height: 180px;
+  }
+
+  .campaign__title{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .campaign__title br{
+    display: block;
+  }
+
+  /* MENU */
+
+  .menu__introduction{
+    top: 15px;
+    left: 60px;
+    width: 130px;
+    height: 130px;
+    font-size: 1.25rem;
+  }
+
+  .menu__introduction span{
+    font-size: 1.5rem;
+  }
+
+  .menu__content__price{
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  /* REASON */
+
+  .reason{
+    padding-bottom: 40px;
+  }
+
+  .reason__inner{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .reason__title{
+    padding-top: 30px;
+  }
+
+  .reason__title-text{
+    font-size: 1.375rem;
+  }
+
+  .reason__title-text br{
+    display: block;
+  }
+
+  .reason__list{
+    margin-top: 11px;
+    padding-top: 9px;
+    padding-bottom: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .reason1, .reason2, .reason3, .reason4, .reason5{
+    flex-direction: column;
+    gap: 23px;
+    margin-top: 40px;
+  }
+
+  .reason2, .reason4{
+    flex-direction: column;
+  }
+
+  .reason__text{
+    width: 100%;
+  }
+
+  .reason__img{
+    width: 100%;
+  }
+
+  .reason__text__number{
+    font-size: 4.375rem;
+    line-height: 1;
+  }
+
+  .reason__text__number::after{
+    top: 5px;
+    right: -30px;
+    height: 60px;
+  }
+
+  .reason__text__title{
+    font-size: 1.5rem;
+  }
+
+  .reason__text__description{
+    margin-top: 13px;
+    font-size: 0.875rem;
+  }
+
+  /* FLOW */
+
+  .flow__list{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* SALON */
+
+  .salon__map{
+    height: 350px;
+  }
+
+  .salon__access{
+    flex-direction: column;
+  }
+
+  /* FAQ */
+
+  .accordion{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .a{
+    left: 40px;
+  }
+
+  /* GREETING */
+
+  .greeting__inner{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .greeting__representative{
+    flex-direction: column-reverse;
+  }
+
+  .greeting__representative__text{
+    width: 100%;
+  }
+
+  .greeting__representative__img{
+    width: 100%;
+  }
+  
+  .greeting__company{
+    flex-direction: column;
+    margin-top: 17px;
+  }
+
+  .greeting__company h3{
+    margin-left: 0;
+    font-size: 0.875rem;
+    text-align: center;
+    transform: translateX(0px);
+  }
+
+  .greeting__company dl{   
+    width: 100%;
+  }
+
+  .greeting__company dl dt{
+    width: 25%;
+    font-size: 0.8125rem;
+  }
+
+  .greeting__company dl dd{
+    width: 75%;
+    font-size: 0.8125rem;
+    white-space: nowrap;
+  }
+
+   /* UNDER-BAR */
+
+  .under-bar__title{
+    font-size: 1.25rem;
+  }
+
+  .under-bar__link{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .under-bar__line{
+    width: 35.6%;
+  }
+
+  .under-bar__line a{
+    font-size: 1rem;
+    border: 4px solid #fff;
+    border-radius: 50px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+
+  .under-bar__line .line-logo{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+
+  .under-bar__hot{
+    width: 38%;
+  }
+
+  .under-bar__hot a{
+    border: 4px solid #fff;
+    border-radius: 50px;
+    text-align: center;
+    height: 60px;
+  }
+
+  .under-bar__hot1{
+    font-size: 1rem;
+  }
+
+  .under-bar__hot2{
+    font-size: 0.875rem;
+    padding-left: 16px;
+  }
+
+  .arrow-white{
+    width: 35px;
+    top: -5px;
+    right: 10px;
+  }
+
+  .under-bar__tel-sp{
+    width: 23%;
+  }
+
+  .under-bar__tel{
+    display: none;
+  }
+
+  .under-bar__tel-sp{
+    display: block;
+  }
+
+  .under-bar__tel-sp a{
+    display: flex;
+    align-items: center;
+    background-color: #727171;
+    border: 4px solid #fff;
+    border-radius: 50px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 60px;
+    position: relative;
+  }
+
+  .fa-phone{
+    margin-right: 10px;
+  }
+
+
+}
+
 
 /*-------------------------------------------
 SP
@@ -1502,7 +1815,6 @@ SP
     padding-left: 12px;
     border: 1px solid #C2932F;
   }
-
 
   .mv__message{
     display: none;
@@ -1578,10 +1890,6 @@ SP
     transform: translateX(110px);
   }
 
-  .campaign__title br{
-    display: block;
-  }
-
   .campaign__table{
     margin-top: 16px;
   }
@@ -1610,6 +1918,10 @@ SP
     padding-top: 7px;
     padding-right: 10px;
     white-space: nowrap;
+  }
+
+  .campaign__price span{
+    font-size: 1rem;
   }
 
   .campaign__table__asterisk{
@@ -1773,12 +2085,6 @@ SP
   .menu__content__title{
     margin-top: 13px;
     font-size: 0.9375rem;
-  }
-
-  .menu__content__price{
-    align-items: center;
-    flex-direction: column;
-    gap: 0px;
   }
 
   .menu__content__price li{
@@ -1982,77 +2288,6 @@ SP
     gap: 17px;
   }
 
-
-  /* REASON */
-
-  .reason{
-    padding-bottom: 40px;
-  }
-
-  .reason__inner{
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .reason__title{
-    padding-top: 30px;
-  }
-
-  .reason__title-text{
-    font-size: 1.375rem;
-  }
-
-  .reason__title-text br{
-    display: block;
-  }
-
-  .reason__list{
-    margin-top: 11px;
-    padding-top: 9px;
-    padding-bottom: 27px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .reason1, .reason2, .reason3, .reason4, .reason5{
-    flex-direction: column;
-    gap: 23px;
-    margin-top: 40px;
-  }
-
-  .reason2, .reason4{
-    flex-direction: column;
-  }
-
-  .reason__text{
-    width: 100%;
-  }
-
-  .reason__img{
-    width: 100%;
-  }
-
-  .reason__text__number{
-    font-size: 4.375rem;
-    line-height: 1;
-  }
-
-  .reason__text__number::after{
-    top: 5px;
-    right: -30px;
-    height: 60px;
-  }
-
-  .reason__text__title{
-    font-size: 1.5rem;
-  }
-
-  .reason__text__description{
-    margin-top: 13px;
-    font-size: 0.875rem;
-  }
-
-
   /* FLOW */
 
   .flow{
@@ -2179,7 +2414,8 @@ SP
 
   .salon__access{
     margin-top: 15px;
-    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
     gap: 32px;
   }
 
@@ -2213,9 +2449,6 @@ SP
 
   .accordion{
     margin-top: 28px;
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 
   .summary__inner{
@@ -2266,12 +2499,6 @@ SP
     padding-bottom: 43px;
   }
 
-  .greeting__inner{
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-
   .greeting__title-text{
     font-size: 1.375rem;
   }
@@ -2290,12 +2517,7 @@ SP
   }
 
   .greeting__representative{
-    flex-direction: column-reverse;
     gap: 12px;
-  }
-
-  .greeting__representative__text{
-    width: 100%;
   }
 
   .greeting__representative__name{
@@ -2323,36 +2545,6 @@ SP
   }
 
   .greeting__representative__history__description dd{
-    font-size: 0.8125rem;
-  }
-
-  .greeting__representative__img{
-    width: 100%;
-  }
-
-  .greeting__company{
-    margin-top: 17px;
-    flex-direction: column;
-  }
-
-  .greeting__company h3{
-    margin-left: 0;
-    font-size: 0.875rem;
-    text-align: center;
-    transform: translateX(0px);
-  }
-
-  .greeting__company dl{   
-    width: 100%;
-  }
-
-  .greeting__company dl dt{
-    width: 25%;
-    font-size: 0.8125rem;
-  }
-
-  .greeting__company dl dd{
-    width: 75%;
     font-size: 0.8125rem;
   }
 
@@ -2435,7 +2627,6 @@ SP
     margin-top: 110px;
   }
 
-
   /* UNDER-BAR */
 
   .under-bar{
@@ -2450,12 +2641,7 @@ SP
   .under-bar__link{
     margin-top: 6px;
     gap: 6px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
 
-  .under-bar__line{
-    width: 35.6%;
   }
 
   .under-bar__line a{
@@ -2465,8 +2651,6 @@ SP
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 7px;
-    display: flex;
-    align-items: center;
     height: 42px;
   }
 
@@ -2474,10 +2658,6 @@ SP
     width: 28px;
     height: 27px;
     margin-right: 3px;
-  }
-
-  .under-bar__hot{
-    width: 38%;
   }
 
   .under-bar__hot a{
@@ -2506,36 +2686,15 @@ SP
     right: 8px;
   }
 
-  .under-bar__tel-sp{
-    width: 23%;
-  }
-
-  .under-bar__tel{
-    display: none;
-  }
-
-  .under-bar__tel-sp{
-    display: block;
-  }
-
   .under-bar__tel-sp a{
-    display: flex;
-    align-items: center;
-    background-color: #727171;
     border: 2px solid #fff;
     border-radius: 23px;
-    padding-top: 9px;
-    padding-bottom: 10px;
     padding-left: 8px;
-    color: #fff;
     font-size: 0.875rem;
-    font-weight: bold;
     height: 42px;
-    position: relative;
   }
 
   .fa-phone{
     margin-right: 1px;
   }
-
 }
