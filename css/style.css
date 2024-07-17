@@ -1929,14 +1929,15 @@ SP
     padding-right: 10px;
   }
 
+
   .campaign__name{
-    width: 55%;
+    width: 50%;
     font-size: 0.9375rem;
     padding-top: 7px;
   }
 
   .campaign__price{
-    width: 45%;
+    width: 50%;
     font-size: 0.9375rem;
     gap: 5px;
     padding-top: 7px;
@@ -2296,7 +2297,7 @@ SP
   }
 
   .eyebrow__treatment__img{
-    height: 100%;
+    height: 192px;
   }
 
   .eyebrow__detail__content{
