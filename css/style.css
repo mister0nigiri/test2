@@ -324,6 +324,7 @@ li{
   font-size: 3.375rem;
   font-weight: bold;
   margin-left: 40px;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
 }
 
 .worry__question br{
@@ -410,6 +411,7 @@ li{
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
 }
 
 .menu__introduction{
@@ -456,6 +458,7 @@ li{
   line-height: 1;
   display: flex;
   align-items: center;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
 }
 
 .menu__content__message .square{
@@ -746,6 +749,7 @@ li{
   font-size: 2.25rem;
   font-weight: bold;
   text-align: center;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
 }
 
 .reason__title-text br{
@@ -806,6 +810,15 @@ li{
 .reason__text__title{
   font-size: 2.25rem;
   font-weight: bold;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+  line-height: 1;
+}
+
+.reason__text__title .at-first{
+  display: block;
+  margin-top: 5px;
+  font-size: 1.5625rem;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
 }
 
 .reason__text__description{
@@ -837,6 +850,7 @@ li{
 
 .flow__title-text{
   font-size: 1.75rem;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
 }
 
 .flow__list{
@@ -852,8 +866,8 @@ li{
 .flow__number{
   font-size: 1rem;
   font-weight: bold;
+  font-family: "Roboto", sans-serif;
   text-transform: capitalize;
-
 }
 
 .flow__number span{
@@ -896,6 +910,7 @@ li{
 .salon__title-text{
   font-size: 1.75rem;
   font-weight: bold;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
 }
 
 .swiper{
@@ -991,6 +1006,7 @@ li{
 .faq__title-text{
   font-size: 1.75rem;
   font-weight: bold;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
 }
 
 .accordion{
@@ -1022,6 +1038,7 @@ details summary::-webkit-details-marker {
   position: relative;
   font-size: 1.4375rem;
   font-weight: bold;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
 }
 
 .q{
@@ -1035,6 +1052,7 @@ details summary::-webkit-details-marker {
   border-radius: 50%;
   font-size: 2rem;
   font-weight: bold;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1117,6 +1135,7 @@ details.is-opened .icon::after {
   text-align: center;
   font-size: 1.75rem;
   font-weight: bold;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
 }
 
 .greeting__content{
@@ -1586,6 +1605,11 @@ TB
 
   .reason__text__title{
     font-size: 1.5rem;
+  }
+
+  .reason__text__title .at-first{
+    margin-top: 3px;
+    font-size: 1.125rem;
   }
 
   .reason__text__description{
