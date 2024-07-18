@@ -224,6 +224,7 @@ li{
   gap: 10px;
   padding-top: 10px;
   padding-bottom: 5px;
+  white-space: nowrap;
 }
 
 .campaign__price span{
@@ -702,11 +703,7 @@ li{
 }
 
 .eyebrow__treatment__img{
-  height: 89%;
-}
-
-.eyebrow__treatment__img img{
-  height: 100%;
+  max-height: 268px;
 }
 
 .eyebrow__detail__content{
